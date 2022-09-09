@@ -10,4 +10,11 @@ m = folium.Map(location=[45.5236, -122.6750])
 ```python
 m.save("index.html")
 ```
+```python
+m = folium.Map(location=[45.372, -121.6972], zoom_start=12, tiles="Stamen Terrain")
 
+tooltip = "Click me!"
+folium.Marker(
+    [45.3288, -121.6625], popup="<i>Mt. Hood Meadows</i>", tooltip=tooltip
+).add_to(m)
+```
