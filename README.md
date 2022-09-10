@@ -14,9 +14,19 @@ Usage:
 import folium
 m = folium.Map(location=[45.5236, -122.6750])
 ```
+
+* To `save` the output map
+
+Usage:
+
 ```python
 m.save("index.html")
 ```
+
+* The default tiles are set to `OpenStreetMap`, but `Stamen Terrain`, `Stamen Toner`, `Mapbox Bright`, and `Mapbox Control Room`, and many others tiles are built in.
+
+Usage:
+
 ```python
 m = folium.Map(location=[45.372, -121.6972], zoom_start=12, tiles="Stamen Terrain")
 
