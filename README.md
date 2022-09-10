@@ -25,6 +25,8 @@ m.save("index.html")
 
 * The default tiles are set to `OpenStreetMap`, but `Stamen Terrain`, `Stamen Toner`, `Mapbox Bright`, and `Mapbox Control Room`, and many others tiles are built in.
 
+* There are numerous `marker` types, starting with a simple Leaflet style location marker with a `popup` and `tooltip`
+
 Usage:
 
 ```python
